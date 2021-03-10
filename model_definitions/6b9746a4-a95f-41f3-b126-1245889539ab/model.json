@@ -1,0 +1,6 @@
+{
+    "id": "6b9746a4-a95f-41f3-b126-1245889539ab",
+    "name": "XGB_Classifier",
+    "description": "A simple classifier model that can work with any simple dataset similar to diabetes dataset.",
+    "language": "python"
+}
