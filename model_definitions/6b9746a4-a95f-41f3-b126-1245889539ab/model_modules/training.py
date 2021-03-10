@@ -22,7 +22,6 @@ def train(data_conf, model_conf, **kwargs):
     # read training dataset from Teradata and convert to pandas
     train_df = DataFrame(data_conf["table"])
     train_df = train_df.select([feature_names + [target_name]])
-    train_df = train_df.select()
     train_df = train_df.to_pandas()
 
     # split data into X and y
