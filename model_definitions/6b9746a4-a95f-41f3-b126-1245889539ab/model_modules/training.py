@@ -26,7 +26,6 @@ def train(data_conf, model_conf, **kwargs):
     train_df = train_df.to_pandas()
 
     # split data into X and y
-    feature_names = train_df[]
     X_train = train_df.drop(target_name, 1)
     y_train = train_df[target_name]
 
